@@ -1,0 +1,48 @@
+.asd{
+    background-color: rgb(246, 183, 64);
+    width: 93em;
+    height: 45em;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.img{
+    display: flex;
+}
+
+.asd img{
+    width: 350px;
+    height: 300px;
+    border-radius: 50%;
+   margin-left: 25%;
+   margin-top: 40px;
+}
+
+.img h1{
+    color: #a95252;
+    margin-left: 15%;
+    text-decoration: underline;
+    margin-top: 10%;
+}
+
+.about h1{
+    color: #8a6e6e;
+    font-size: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 7%;
+    line-height: 1.5;
+}
+
+button{
+   color:black;
+    width: 250px;
+    height: 50px;
+    border: 2px solid rgb(250, 16, 16);
+    text-transform: capitalize;
+    margin-left: 20%;
+}
+button:hover{
+    background-color: transparent;
+    color: #fff;
+}

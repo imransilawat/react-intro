@@ -1,0 +1,45 @@
+.sera{
+    width: 97.5%;
+    height: 900px;
+    border: 2px solid red;
+    background-color: aqua;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.sera .main img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 27px;
+}
+
+.main{
+    display: flex;
+}
+
+.main h1{
+    font-size: 55px;
+    color: brown;
+    text-transform: capitalize;
+    margin-left: 150px;
+    display: block;
+}
+
+.cont h2{
+    color: rgb(119, 109, 109);
+    text-transform: capitalize;
+    margin-left: 80px;
+    line-height: 1.5;
+
+}
+
+.cont h3{
+    color: blueviolet;
+    font-size: 100px;
+    text-transform: capitalize;
+    margin-left: 150px;
+}
+
+

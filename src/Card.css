@@ -5,26 +5,32 @@
     margin-top: 20px;
     margin-left: 20px;
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
 }
 .image1 img{
     width: 300px;
     height: 250px;
     margin-top: 20px;
+    margin-left: 30px;
 }
 
 .content h3{
-    color: blue;
-    margin-left: 50px;
-    text-transform: capitalize;
-    font-size: 15px;
+    color: rgb(123, 158, 67);
+    margin-left: 50px; 
+    text-transform :capitalize;
+    font-size: 16px;
+    display: block;
+   
 }
 
 .content button{
     background-color: rgb(133, 133, 161);
-    margin-left: 80px;
-
+    margin-left: 50px;
+    color: black;
 }
 
-.parent{
+.rr{
     display: flex;
 }
+

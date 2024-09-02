@@ -2,6 +2,8 @@ import React from "react";
 
 import './Header.css'
 
+import { Link } from "react-router-dom";
+
 function Header(){
     return(
         <>
@@ -9,9 +11,16 @@ function Header(){
         <header>
             <input type="text" placeholder="search here" />
             <button>login</button>
-            <li>home</li>
-            <li>about</li>
-            <li>service</li>
+          
+          <Link to={'/'}><li>Home</li></Link>
+
+          <Link to={'/about'}><li>About</li></Link>
+
+          <Link to={'/count'}><li>Count</li></Link>
+
+          <Link to={'/Service'}><li>Service</li></Link>
+           
+          
         </header>
         </>
     )
